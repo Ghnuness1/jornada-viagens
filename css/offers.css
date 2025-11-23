@@ -1,11 +1,31 @@
-@media screen and (min-width: 768px) {
-  .section-title h2 {
-    font-size: 32px;
-  }
+.cards {
+  color: var(--text-secondary-color);
+  background-color: black;
+  width: 312px;
+  height: 288px;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  border-radius: 16px;
+  text-align: center;
 }
 
-@media screen and (min-width: 1024px) {
+.cards header {
+  display: block;
+  background-color: transparent;
+  position: static;
 }
 
-@media screen and (min-width: 1920px) {
+.cards header p {
+  font-weight: var(--text-weight);
+  font-size: 20px;
+}
+.cards header h3 {
+  font-weight: var(--title-weight);
+  font-size: 40px;
+  margin: 8px 0 0;
+}
+.cards header span {
+  font-size: 32px;
+  margin-top: 24px;
+  display: inline-block;
 }
