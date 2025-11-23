@@ -13,6 +13,8 @@
   border-radius: 8px;
   padding: 24px;
   box-sizing: border-box;
+  text-decoration: none;
+  color: var(--text-primary-color);
 }
 
 .categories-cards .card h3 {
