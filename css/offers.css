@@ -1,4 +1,4 @@
-.cards {
+.card {
   color: var(--text-secondary-color);
   background-color: black;
   width: 312px;
@@ -9,22 +9,24 @@
   text-align: center;
 }
 
-.cards header {
+.card header {
   display: block;
   background-color: transparent;
   position: static;
+  padding: 0;
+  margin-bottom: 24px;
 }
 
-.cards header p {
+.card header p {
   font-weight: var(--text-weight);
   font-size: 20px;
 }
-.cards header h3 {
+.card header h3 {
   font-weight: var(--title-weight);
   font-size: 40px;
   margin: 8px 0 0;
 }
-.cards header span {
+.card header span {
   font-size: 32px;
   margin-top: 24px;
   display: inline-block;
