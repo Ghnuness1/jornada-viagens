@@ -22,7 +22,6 @@
 }
 
 /* CSS Reset */
-
 body,
 img,
 h1,
@@ -45,10 +44,10 @@ body {
 }
 
 .section-title h2 {
-  font-weight: var(--title-weight);
   font-size: 28px;
-  text-align: center;
+  font-weight: var(--title-weight);
   margin: 0;
+  text-align: center;
 }
 
 .section-title hr {
@@ -62,7 +61,7 @@ body {
 .button {
   width: 280px;
   height: 64px;
-  color: var(--background-primary-color);
+  color: var(--text-secondary-color);
   font-weight: var(--title-weight);
   font-size: 20px;
   background-color: var(--secondary-color);

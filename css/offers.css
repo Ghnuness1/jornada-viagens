@@ -7,7 +7,6 @@
 
 .card {
   color: var(--text-secondary-color);
-  background-color: black;
   width: 312px;
   height: 288px;
   box-sizing: border-box;
@@ -15,7 +14,6 @@
   border-radius: 16px;
   text-align: center;
 }
-
 .card header {
   display: block;
   background-color: transparent;
@@ -25,12 +23,13 @@
 }
 
 .card header p {
-  font-weight: var(--text-weight);
   font-size: 20px;
+  font-weight: var(--text-weight);
 }
+
 .card header h3 {
-  font-weight: var(--title-weight);
   font-size: 40px;
+  font-weight: var(--title-weight);
   margin: 8px 0 0;
 }
 .card header span {
@@ -59,11 +58,10 @@
 @media screen and (min-width: 768px) {
   .offers-cards {
     flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
-
 @media screen and (min-width: 1024px) {
   .card {
     width: 420px;
@@ -76,12 +74,12 @@
     font-size: 40px;
   }
 }
-
 @media screen and (min-width: 1440px) {
   .card {
     width: 588px;
   }
 }
+
 @media screen and (min-width: 1920px) {
   .offers-cards {
     width: 1250px;
