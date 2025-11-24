@@ -1,5 +1,5 @@
-.offers {
-  margin-bottom: 104px;
+.section-title.offers h2 {
+  font-size: 28px;
 }
 
 .offers-cards {
@@ -7,6 +7,7 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  margin-bottom: 88px;
 }
 
 .offers-cards .card {
@@ -60,6 +61,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .section-title.offers h2 {
+    font-size: 32px;
+  }
+
   .offers-cards {
     flex-direction: row;
     flex-wrap: wrap;
@@ -67,6 +72,10 @@
   }
 }
 @media screen and (min-width: 1024px) {
+  .offers-cards {
+    margin-bottom: 104px;
+  }
+
   .offers-cards .card {
     width: 420px;
     height: 308px;
@@ -87,6 +96,6 @@
 @media screen and (min-width: 1920px) {
   .offers-cards {
     width: 1250px;
-    margin: 0 auto;
+    margin: 0 auto 104px;
   }
 }
