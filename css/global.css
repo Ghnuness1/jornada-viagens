@@ -1,9 +1,9 @@
 /* -----------------------------------------------------------
-  Fonte
+  Section — Global
 ----------------------------------------------------------- */
 @font-face {
   font-family: "Montserrat";
-  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+  src: url(../fonts/Montserrat.ttf);
   font-style: normal;
   font-display: swap;
 }
@@ -41,17 +41,11 @@ button {
   box-sizing: border-box;
 }
 
-/* -----------------------------------------------------------
-  Estilos globais
------------------------------------------------------------ */
 body {
   font-family: "Montserrat";
   color: var(--text-primary-color);
 }
 
-/* -----------------------------------------------------------
-  Estrutura das seções
------------------------------------------------------------ */
 section {
   width: 312px;
   margin: 0 auto 88px;
@@ -63,9 +57,6 @@ section.bottom-hero {
   margin: 0;
 }
 
-/* -----------------------------------------------------------
-  Títulos de seção
------------------------------------------------------------ */
 .section-title {
   width: 312px;
   margin: 0 auto 32px;
@@ -90,9 +81,6 @@ section.bottom-hero {
   margin: 16px auto 32px;
 }
 
-/* -----------------------------------------------------------
-  Textos globais reutilizáveis
------------------------------------------------------------ */
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
@@ -105,9 +93,6 @@ section.bottom-hero {
   line-height: 32px;
 }
 
-/* -----------------------------------------------------------
-  Botões
------------------------------------------------------------ */
 .button {
   min-width: 280px;
   height: 64px;
@@ -122,13 +107,13 @@ section.bottom-hero {
   text-align: center;
 }
 
-/* -----------------------------------------------------------
-  Tablet
------------------------------------------------------------ */
+/* ---------------- Tablet ---------------- */
+
 @media screen and (min-width: 768px) {
   section {
     width: 648px;
   }
+
   .section-title {
     width: 100%;
   }
@@ -142,9 +127,8 @@ section.bottom-hero {
   }
 }
 
-/* -----------------------------------------------------------
-  Desktop médio
------------------------------------------------------------ */
+/* ---------------- Desktop ---------------- */
+
 @media screen and (min-width: 1024px) {
   .section-title hr {
     margin: 16px auto 64px;
@@ -159,9 +143,8 @@ section.bottom-hero {
   }
 }
 
-/* -----------------------------------------------------------
-  Desktop grande
------------------------------------------------------------ */
+/* ---------------- Large Desktop ---------------- */
+
 @media screen and (min-width: 1440px) {
   section {
     width: 1200px;

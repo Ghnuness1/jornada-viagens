@@ -10,7 +10,7 @@
   gap: 32px;
 }
 
-.testimonial-container article header p {
+.testimonial-container .testimonial header p {
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 8px;
