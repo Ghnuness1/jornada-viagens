@@ -1,3 +1,6 @@
+/* -----------------------------------------------------------
+  Categories Section
+----------------------------------------------------------- */
 .categories-cards {
   display: flex;
   flex-direction: column;
@@ -5,16 +8,24 @@
   gap: 24px;
 }
 
+/* Cards */
 .categories-cards .card {
   width: 312px;
   height: 220px;
-  background-color: var(--background-secondary-color);
-  text-align: center;
-  border-radius: 8px;
   padding: 24px;
+  background-color: var(--background-secondary-color);
+
+  border-radius: 8px;
   box-sizing: border-box;
+
+  text-align: center;
   text-decoration: none;
   color: var(--text-primary-color);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .categories-cards .card img {
@@ -22,6 +33,7 @@
   height: 80px;
 }
 
+/* Ajuste visual para títulos de 1 linha */
 .categories-cards .card.single-line {
   padding-top: 40px;
 }
