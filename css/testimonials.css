@@ -1,3 +1,9 @@
+/* -----------------------------------------------------------
+  Section — Testimonials
+----------------------------------------------------------- */
+
+/* ---------------- Layout Base ---------------- */
+
 .testimonial-container {
   display: flex;
   flex-direction: column;
@@ -34,6 +40,8 @@
   color: var(--secondary-color);
   line-height: 32px;
 }
+
+/* ---------------- Large Desktop ---------------- */
 
 @media screen and (min-width: 1440px) {
   .testimonial-container {
