@@ -1,3 +1,9 @@
+/* -----------------------------------------------------------
+  Section — Offers
+----------------------------------------------------------- */
+
+/* ---------------- Layout Base ---------------- */
+
 .section-title.offers h2 {
   font-size: 28px;
 }
@@ -19,6 +25,7 @@
   border-radius: 16px;
   text-align: center;
 }
+
 .offers-cards .card header {
   margin-bottom: 24px;
 }
@@ -33,6 +40,7 @@
   font-weight: var(--title-weight);
   margin: 8px 0 0;
 }
+
 .offers-cards .card header span {
   font-size: 32px;
   margin-top: 24px;
@@ -59,6 +67,8 @@
   background-size: cover;
 }
 
+/* ---------------- Tablet ---------------- */
+
 @media screen and (min-width: 768px) {
   .section-title.offers h2 {
     font-size: 32px;
@@ -70,6 +80,8 @@
     justify-content: center;
   }
 }
+
+/* ---------------- Desktop ---------------- */
 
 @media screen and (min-width: 1024px) {
   .offers-cards {
@@ -90,11 +102,15 @@
   }
 }
 
+/* ---------------- Large Desktop ---------------- */
+
 @media screen and (min-width: 1440px) {
   .offers-cards .card {
     width: 588px;
   }
 }
+
+/* ---------------- Ultra Desktop ---------------- */
 
 @media screen and (min-width: 1920px) {
   .offers-cards {
