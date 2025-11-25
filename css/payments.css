@@ -1,3 +1,9 @@
+/* -----------------------------------------------------------
+  Section — Payments
+----------------------------------------------------------- */
+
+/* ---------------- Layout Base ---------------- */
+
 .payments .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -29,6 +35,8 @@
   grid-column: span 2;
 }
 
+/* ---------------- Tablet ---------------- */
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.first {
     background: url(../img/gallery1-tablet-desktop.png) no-repeat;
@@ -48,6 +56,8 @@
     background-position: center;
   }
 }
+
+/* ---------------- Large Desktop ---------------- */
 
 @media screen and (min-width: 1440px) {
   .payments .content-container {
