@@ -19,16 +19,15 @@
 .destinations .item.tokyo .destination-image {
   background: url(../img/tokyo-mobile.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .destinations .item.osaka .destination-image {
   background: url(../img/osaka-mobile.jpg);
   background-size: cover;
+  background-position: center;
 }
 
-/* -----------------------------------------------------------
-  Destinations - Textos e espaçamentos
------------------------------------------------------------ */
 .destinations .item header h3 {
   font-size: 28px;
   margin: 24px 0;
@@ -42,9 +41,8 @@
   width: 100%;
 }
 
-/* -----------------------------------------------------------
-  Destinations - Tablet
------------------------------------------------------------ */
+/* ---------------- Tablet ---------------- */
+
 @media screen and (min-width: 768px) {
   .destinations {
     width: 648px;
@@ -58,17 +56,21 @@
   .destinations .item.tokyo .destination-image {
     background: url(../img/tokyo-tablet-desktop.jpg);
     background-size: cover;
+    background-position: center;
   }
 
   .destinations .item.osaka .destination-image {
     background: url(../img/osaka-tablet-desktop.jpg);
     background-size: cover;
+    background-position: center;
   }
 
   .destinations .button {
     width: 312px;
   }
 }
+
+/* ---------------- Desktop ---------------- */
 
 @media screen and (min-width: 1024px) {
   .destinations {
@@ -80,6 +82,8 @@
     height: 452px;
   }
 }
+
+/* ---------------- Large Desktop ---------------- */
 
 @media screen and (min-width: 1440px) {
   .destinations {
