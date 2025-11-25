@@ -4,7 +4,7 @@
 
 /* ---------------- Layout Base ---------------- */
 
-.payments .image-gallery {
+.payments .payment-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
@@ -13,44 +13,44 @@
   width: 100%;
 }
 
-.payments .content-container .image-gallery .image.first {
+.payments .payment-container .payment-gallery .image.first {
   background: url(../img/gallery1-mobile.png) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.payments .content-container .image-gallery .image.second {
+.payments .payment-container .payment-gallery .image.second {
   background: url(../img/gallery2-mobile.png) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.payments .content-container .image-gallery .image.thirdy {
+.payments .payment-container .payment-gallery .image.third {
   background: url(../img/gallery3-mobile.png) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.payments .content-container .image-gallery .image.colspan-2 {
+.payments .payment-container .payment-gallery .image.colspan-2 {
   grid-column: span 2;
 }
 
 /* ---------------- Tablet ---------------- */
 
 @media screen and (min-width: 768px) {
-  .payments .content-container .image-gallery .image.first {
+  .payments .payment-container .payment-gallery .image.first {
     background: url(../img/gallery1-tablet-desktop.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
 
-  .payments .content-container .image-gallery .image.second {
+  .payments .payment-container .payment-gallery .image.second {
     background: url(../img/gallery2-tablet-desktop.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
 
-  .payments .content-container .image-gallery .image.thirdy {
+  .payments .payment-container .payment-gallery .image.third {
     background: url(../img/gallery3-tablet-desktop.png) no-repeat;
     background-size: cover;
     background-position: center;
@@ -60,16 +60,16 @@
 /* ---------------- Large Desktop ---------------- */
 
 @media screen and (min-width: 1440px) {
-  .payments .content-container {
+  .payments .payment-container {
     display: flex;
     justify-content: space-between;
   }
 
-  .payments .content-container .text-content {
+  .payments .payment-container .text-content {
     width: 360px;
   }
 
-  .payments .content-container .image-gallery {
+  .payments .payment-container .payment-gallery {
     width: 790px;
     margin: 0;
   }

@@ -4,23 +4,23 @@
 
 /* ---------------- Layout Base ---------------- */
 
-.hero .hero-img,
-.bottom-hero .hero-img {
+.hero .hero-image,
+.bottom-hero .hero-image {
   height: 400px;
   width: 100%;
 }
 
-.hero .hero-img {
+.hero .hero-image {
   background: url(../img/hero-mobile.jpg) no-repeat;
   background-size: cover;
 }
 
-.bottom-hero .hero-img {
+.bottom-hero .hero-image {
   background: url(../img/bg-bottom-hero-mobile.jpg) no-repeat;
   background-size: cover;
 }
 
-.hero h2 {
+.hero .hero-text {
   padding: 88px 24px;
   margin: 0;
   font-weight: var(--text-weight);
@@ -32,19 +32,19 @@
 /* ---------------- Tablet ---------------- */
 
 @media screen and (min-width: 768px) {
-  .hero .hero-img {
+  .hero .hero-image {
     height: 620px;
     background: url(../img/hero-tablet.jpg) no-repeat;
     background-size: cover;
   }
 
-  .bottom-hero .hero-img {
+  .bottom-hero .hero-image {
     height: 400px;
     background: url(../img/bg-bottom-hero-tablet.jpg) no-repeat;
     background-size: cover;
   }
 
-  .hero h2 {
+  .hero .hero-text {
     padding: 88px 60px;
     font-size: 32px;
   }
@@ -53,18 +53,18 @@
 /* ---------------- Desktop ---------------- */
 
 @media screen and (min-width: 1024px) {
-  .hero .hero-img {
+  .hero .hero-image {
     background: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
 
-  .bottom-hero .hero-img {
+  .bottom-hero .hero-image {
     height: 600px;
     background: url(../img/bg-bottom-hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
 
-  .hero h2 {
+  .hero .hero-text {
     padding: 88px 120px;
   }
 }
@@ -72,7 +72,7 @@
 /* ---------------- Ultra Desktop ---------------- */
 
 @media screen and (min-width: 1920px) {
-  .hero h2 {
+  .hero .hero-text {
     padding: 88px 160px;
   }
 }
