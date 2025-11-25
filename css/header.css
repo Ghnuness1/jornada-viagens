@@ -1,3 +1,9 @@
+/* -----------------------------------------------------------
+  Section — Header
+----------------------------------------------------------- */
+
+/* ---------------- Layout Base ---------------- */
+
 .main-header {
   background-color: var(--background-tertiary-color);
   display: flex;
@@ -54,6 +60,8 @@ nav {
   font-size: 24px;
 }
 
+/* ---------------- Tablet ---------------- */
+
 @media screen and (min-width: 768px) {
   .navigation-menu {
     margin-top: 0;
@@ -80,6 +88,8 @@ nav {
   }
 }
 
+/* ---------------- Desktop ---------------- */
+
 @media screen and (min-width: 1024px) {
   .main-header {
     padding: 38px 120px;
@@ -102,6 +112,8 @@ nav {
     color: var(--primary-color);
   }
 }
+
+/* ---------------- Large Desktop ---------------- */
 
 @media screen and (min-width: 1920px) {
   .main-header {
