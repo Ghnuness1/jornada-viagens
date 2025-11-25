@@ -1,6 +1,9 @@
 /* -----------------------------------------------------------
-  Categories Section
+  Section — Categories
 ----------------------------------------------------------- */
+
+/* ---------------- Layout Base ---------------- */
+
 .categories-cards {
   display: flex;
   flex-direction: column;
@@ -8,24 +11,16 @@
   gap: 24px;
 }
 
-/* Cards */
 .categories-cards .card {
   width: 312px;
   height: 220px;
-  padding: 24px;
   background-color: var(--background-secondary-color);
-
-  border-radius: 8px;
-  box-sizing: border-box;
-
   text-align: center;
+  border-radius: 8px;
+  padding: 24px;
+  box-sizing: border-box;
   text-decoration: none;
   color: var(--text-primary-color);
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .categories-cards .card img {
@@ -33,10 +28,11 @@
   height: 80px;
 }
 
-/* Ajuste visual para títulos de 1 linha */
 .categories-cards .card.single-line {
   padding-top: 40px;
 }
+
+/* ---------------- Tablet ---------------- */
 
 @media screen and (min-width: 768px) {
   .categories-cards {
@@ -46,11 +42,15 @@
   }
 }
 
+/* ---------------- Desktop ---------------- */
+
 @media screen and (min-width: 1024px) {
   .categories-cards .card {
     width: 430px;
   }
 }
+
+/* ---------------- Large Desktop ---------------- */
 
 @media screen and (min-width: 1440px) {
   .categories-cards .card {

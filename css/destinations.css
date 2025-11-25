@@ -1,3 +1,9 @@
+/* -----------------------------------------------------------
+  Section — Destinations
+----------------------------------------------------------- */
+
+/* ---------------- Layout Base ---------------- */
+
 .destination-items {
   display: flex;
   flex-direction: column;
@@ -20,6 +26,9 @@
   background-size: cover;
 }
 
+/* -----------------------------------------------------------
+  Destinations - Textos e espaçamentos
+----------------------------------------------------------- */
 .destinations .item header h3 {
   font-size: 28px;
   margin: 24px 0;
@@ -33,6 +42,9 @@
   width: 100%;
 }
 
+/* -----------------------------------------------------------
+  Destinations - Tablet
+----------------------------------------------------------- */
 @media screen and (min-width: 768px) {
   .destinations {
     width: 648px;
