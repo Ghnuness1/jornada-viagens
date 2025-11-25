@@ -1,3 +1,9 @@
+/* -----------------------------------------------------------
+  Section — Footer
+----------------------------------------------------------- */
+
+/* ---------------- Layout Base ---------------- */
+
 .main-footer {
   background-color: var(--background-tertiary-color);
   width: 100%;
@@ -39,6 +45,8 @@
   text-decoration: none;
 }
 
+/* ---------------- Tablet ---------------- */
+
 @media screen and (min-width: 768px) {
   .main-footer {
     padding: 32px 60px;
@@ -53,6 +61,8 @@
     margin-top: 32px;
   }
 }
+
+/* ---------------- Large Desktop ---------------- */
 
 @media screen and (min-width: 1440px) {
   .main-footer {
